@@ -13,4 +13,7 @@ end
     it "returns 'fizzbuzz' if number is divisible by 15" do
       expect(fizz_buzz(15)).to eq 'fizzbuzz'
     end
+    it "returns 'enter a number between 1 and 100' if user selects anything else" do
+      expect(fizz_buzz(101)).to eq 'enter a number between 1 and 100'
+    end
   end
