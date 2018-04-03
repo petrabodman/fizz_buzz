@@ -16,4 +16,4 @@ end
     it "returns 'enter a number between 1 and 100' if user selects anything else" do
       expect(fizz_buzz(101)).to eq 'enter a number between 1 and 100'
     end
-  end
+end
